@@ -1,0 +1,107 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+.sticky-top {
+  background-color: white;
+}
+
+.logo {
+  margin: 5px 5px 5px 5px;
+  width: 20px;
+  height: 20px;
+}
+
+h2 {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+h3 {
+  background-color: red;
+  border: 1px solid black;
+
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.app-main {
+  text-align: center;
+
+
+}
+
+.app-input {
+  width: 100%;
+
+}
+
+.result-image {
+  position: relative;
+  padding: 25px 25px 25px 25px;
+}
+
+.text-center {
+  position: sticky;
+  width: 100%;
+  background-color: grey;
+
+}
+
+.options {
+
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 15px;
+
+
+}
+
+.horizontal-slider {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+}
+
+.example-thumb {
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  background: #ffffff;
+  border: 5px solid #3b71ca;
+  border-radius: 100%;
+  display: block;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+}
+
+.example-thumb.active {
+  background-color: grey;
+}
+
+.example-track {
+  position: relative;
+  background: #ddd;
+}
+
+.example-track.example-track-0 {
+  background: #3b71ca;
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 6px;
+}
+
+.horizontal-slider .example-thumb {
+  top: 12px;
+  width: 10px;
+  outline: none;
+  height: 10px;
+  line-height: 38px;
+}
